@@ -1,0 +1,12 @@
+type Item {
+  id: ID
+  name: String
+  images: [String]
+  tags: String
+  amount: Int
+  price: String
+}
+
+type Query {
+  items: [Item]
+}
